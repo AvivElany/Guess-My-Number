@@ -149,3 +149,160 @@ h1 {
   color: tomato;
   font-size: 3.2rem;
 }
+
+/* MOBILE RESPONSIVENESS */
+
+/* Mobile screens: 480px - 600px */
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 60%;
+  }
+
+  header {
+    height: 30vh;
+  }
+
+  main {
+    height: 70vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+  }
+
+  .left, .right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right {
+    font-size: 2.5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .number {
+    font-size: 4.5rem;
+    width: 13rem;
+    padding: 2rem 0rem;
+  }
+
+  .guess {
+    font-size: 4rem;
+    width: 20rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    font-size: 1.8rem;
+    padding: 1.5rem 2.5rem;
+  }
+
+  .between {
+    font-size: 1.5rem;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .again {
+    top: 1rem;
+    left: 1rem;
+  }
+}
+
+/* Small mobile screens: 350px - 480px */
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+
+  header {
+    height: 25vh;
+  }
+
+  main {
+    height: 75vh;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .number {
+    font-size: 3.5rem;
+    width: 10rem;
+    padding: 1.5rem 0rem;
+  }
+
+  .right {
+    font-size: 2rem;
+  }
+
+  .guess {
+    font-size: 3rem;
+    width: 18rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 1.2rem 2rem;
+  }
+
+  .between {
+    font-size: 1.2rem;
+  }
+
+  .again {
+    font-size: 1.2rem;
+  }
+
+  .message {
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+  }
+
+  .label-score, .label-highscore {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Extra small screens: below 350px */
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 45%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .number {
+    font-size: 3rem;
+    width: 8rem;
+    padding: 1rem 0rem;
+  }
+
+  .guess {
+    font-size: 2.5rem;
+    width: 15rem;
+    padding: 1rem;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .right {
+    font-size: 1.5rem;
+  }
+
+  .between, .again {
+    font-size: 1rem;
+  }
+}
